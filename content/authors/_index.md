@@ -15,7 +15,10 @@ interests:
 education:
   - area: MBA Business Analytics
     institution: Université Laval
-
+    
+  - area: MBA Supply Chain Management
+    institution: Université Laval
+    
 social:
   - icon: envelope
     icon_pack: fas
@@ -27,5 +30,6 @@ social:
 
   - icon: linkedin
     icon_pack: fab
-    link: https://linkedin.com/in/tonprofil
+    link: https://linkedin.com/in/mahometkeita
+
 ---
