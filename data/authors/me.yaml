@@ -2,8 +2,8 @@ schema: hugoblox/author/v1
 slug: me
 is_owner: true
 name:
-  display: Mahomet Limenia Jean-Yves J. Keita
-  given: Mahomet
+  display: Mahomet Keita
+  given: Mahomet limenia jean-yves.J
   family: Keita
   alternate: ''
   pronunciation: ''
@@ -48,8 +48,8 @@ interests:
 education:
   - degree: MBA Business Analytics
     institution: Université Laval
-    start: 2026-01-01
-    end: 2027-01-01
+    start: 2024-09-02
+    end: 2026-04-30
     summary: |
       Graduate studies focusing on data analytics, machine learning,
       predictive modeling and decision-support systems.
@@ -64,48 +64,83 @@ education:
     end: 2025-12-31
 
   - degree: Bachelor's Degree
-    institution: Université Laval
-    start: 2021-09-01
-    end: 2024-05-31
+    institution: ESLSCA Business School Paris  
+    start: 2019-09-01
+    end: 2022-05-31
 
 experience:
-  - role: Data Science Research Intern
-    org: ASTEK
-    start: 2025-05-01
+  - role: Administrative Assistant – Accounts Payable
+    org: Université Laval
+    start: 2025-01-01
     summary: |
-      Conduct research in natural language processing and machine learning
-      applied to business and organizational data.
+      Analyze and process 80+ supplier invoices per day to ensure accuracy and compliance
+      with procurement and financial procedures. Develop operational KPIs related to
+      processing delays and compliance, and automate administrative tasks to improve
+      workflow efficiency. Collaborate with finance and procurement teams to optimize
+      financial data management and transaction processing.
 
     button:
       text: View portfolio
       url: /
       icon: hero/arrow-down-tray
 
-  - role: Administrative Assistant – Accounts Payable
-    org: Université Laval
-    start: 2025-01-01
-    end: 2025-12-31
+  - role: Inventory and Supply Chain Coordinator
+    org: SCBAU SARL
+    start: 2022-09-01
+    end: 2024-05-31
     summary: |
-      Processed and validated financial transactions and supported
-      accounting operations within the finance department.
+      Managed inventory planning and supply chain coordination for a major infrastructure
+      project. Optimized stock levels and replenishment strategies while analyzing supply
+      risks related to capacity constraints. Negotiated with local and international
+      suppliers to secure supply and reduce procurement costs. Developed monthly analytical
+      reports and logistics KPIs to support strategic decision-making.
+
+  - role: Data Analyst
+    org: UX Center
+    start: 2020-07-01
+    end: 2021-09-30
+    summary: |
+      Analyzed customer experience performance indicators including SLA, AHT, resolution
+      rates and NPS. Extracted and processed data using SQL and CRM tools to generate
+      decision-support reports. Built interactive dashboards in Power BI for real-time
+      performance monitoring and automated reporting workflows using Excel and Python.
+      Collaborated with operations and IT teams to improve data quality and analytical
+      insights.
 
 skills:
-  - name: Technical Skills
+  - name: Programming & Data Tools
     items:
-      - label: R
-        level: 5
-      - label: Python
+      - label: Python (pandas, scikit-learn, XGBoost, TensorFlow/Keras)
         level: 4
-      - label: SQL
+      - label: R (data analysis & statistical modeling)
+        level: 4
+      - label: SQL (data extraction & database analysis)
+        level: 4
+      - label: Excel (advanced analytics & automation)
+        level: 5
+      - label: Power BI (interactive dashboards & reporting)
         level: 4
 
-  - name: Research & Communication
+  - name: Data & Business Analytics
     items:
-      - label: Data Analysis
+      - label: Data Analysis & Statistical Modeling
         level: 5
-      - label: Data Visualization
+      - label: Machine Learning & Predictive Modeling
         level: 4
-      - label: Business Analytics
+      - label: Data Visualization & Business Intelligence
+        level: 4
+      - label: KPI Development & Performance Analysis
+        level: 4
+
+  - name: Supply Chain & Operations Analytics
+    items:
+      - label: Inventory Optimization & Replenishment Models
+        level: 4
+      - label: Supply Chain Performance Analysis
+        level: 4
+      - label: Logistics KPI Monitoring
+        level: 4
+      - label: Process Optimization & Continuous Improvement
         level: 4
 
 languages:
@@ -120,6 +155,6 @@ languages:
 awards:
   - title: MBA Candidate – Business Analytics & Supply Chain Management
     awarder: Université Laval
-    date: "2024-09-01"
+    date: "2026-01-30"
     summary: Graduate studies focused on advanced analytics and decision models.
     icon: hero/trophy
