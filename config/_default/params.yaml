@@ -15,6 +15,7 @@ hugoblox:
     # Site name - shown in navbar, footer, copyright, and browser title by default
     name: "Mahomet Keita"
     # Legal entity for copyright notices (defaults to name if not set)
+    logo: "icon.png"
     organization: ""
     # Schema.org type for structured data
     type: person                        # person | organization | local_business
