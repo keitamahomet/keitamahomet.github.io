@@ -4,18 +4,34 @@ date: 2024-05-19
 type: landing
 
 design:
-  # Section spacing
   spacing: '5rem'
 
-# Page sections
 sections:
   - block: collection
     content:
       title: Selected Projects
-      text: I enjoy making things. Here are a selection of projects that I have worked on over the years.
+      text: I enjoy building data-driven solutions. Here is a selection of projects in descriptive, predictive, prescriptive analytics and databases.
+
       filters:
         folders:
           - projects
+
+      # Affiche une sélection sur la page Projects
+      count: 9
+
+      # Tri : les plus récents en premier
+      sort_by: date
+      sort_ascending: false
+
+      # ✅ Affiche tout contenu (pas seulement "featured")
+      featured_only: false
+
+      #Bouton vers la liste complète
+      archive:
+        enable: true
+        text: See all
+        link: /projects/
+
     design:
       view: article-grid
       fill_image: false
