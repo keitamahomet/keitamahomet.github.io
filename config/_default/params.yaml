@@ -280,3 +280,6 @@ hugoblox:
     hide_attribution: true
     
     affiliate_code: ""
+
+custom_css:
+  - "css/custom.css"
