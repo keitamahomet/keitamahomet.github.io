@@ -1,1 +1,6 @@
-
+/* Agrandir le lien SITE dans les pages projets */
+.btn-links a {
+  font-size: 1.3rem;
+  font-weight: 600;
+  padding: 10px 16px;
+}
