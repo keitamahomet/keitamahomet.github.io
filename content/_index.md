@@ -18,7 +18,7 @@ sections:
       # Show a call-to-action button under your biography? (optional)
       button:
         text: Download CV
-        url: uploads/resume.pdf
+        url: /uploads/resume.pdf
       headings:
         about: ''
         education: ''
@@ -37,26 +37,28 @@ sections:
       avatar:
         size: medium # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
         shape: circle # Options: circle (default), square, rounded
+
   - block: markdown
-  content:
-    title: 'About Me'
-    subtitle: ''
-    text: |-
-      I am a **Data and Business Analytics professional** specialized in **Supply Chain Analytics, optimization, and data-driven decision making**.
+    content:
+      title: 'About Me'
+      subtitle: ''
+      text: |-
+        I am a **Data and Business Analytics professional** specialized in **Supply Chain Analytics, optimization, and data-driven decision making**.
 
-      My work focuses on transforming data into actionable insights using **data analytics, machine learning, optimization models, and business intelligence tools**.
+        My work focuses on transforming data into actionable insights using **data analytics, machine learning, optimization models, and business intelligence tools**.
 
-      I have developed projects covering:
-      - **Descriptive Analytics** – data exploration and insights
-      - **Predictive Analytics** – clustering and predictive modeling
-      - **Prescriptive Analytics** – optimization and operations research
-      - **Database Systems** – SQL data modeling and querying
+        I have developed projects covering:
+        - **Descriptive Analytics** – data exploration and insights
+        - **Predictive Analytics** – clustering and predictive modeling
+        - **Prescriptive Analytics** – optimization and operations research
+        - **Database Systems** – SQL data modeling and querying
 
-      My objective is to leverage **analytics and data science techniques to improve operational performance, support strategic decisions, and optimize complex systems in business and supply chain environments.**
+        My objective is to leverage **analytics and data science techniques to improve operational performance, support strategic decisions, and optimize complex systems in business and supply chain environments.**
 
-      This portfolio showcases practical analytics projects demonstrating how data can be used to solve real-world problems.
-  design:
-    columns: '1'
+        This portfolio showcases practical analytics projects demonstrating how data can be used to solve real-world problems.
+    design:
+      columns: '1'
+
   - block: collection
     id: papers
     content:
@@ -68,6 +70,7 @@ sections:
     design:
       view: article-grid
       columns: 2
+
   - block: collection
     content:
       title: Recent Publications
@@ -78,6 +81,7 @@ sections:
         exclude_featured: false
     design:
       view: citation
+
   - block: collection
     id: talks
     content:
@@ -87,6 +91,7 @@ sections:
           - events
     design:
       view: card
+
   - block: collection
     id: news
     content:
@@ -116,6 +121,7 @@ sections:
       # Reduce spacing
       spacing:
         padding: [0, 0, 0, 0]
+
   - block: cta-card
     demo: true # Only display this section in the HugoBlox Kit demo site
     content:
