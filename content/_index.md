@@ -38,17 +38,28 @@ sections:
         size: medium # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
         shape: circle # Options: circle (default), square, rounded
   - block: markdown
+  - block: markdown
     content:
-      title: '📚 My Research'
-      subtitle: ''
-      text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
+  - block: markdown
+  content:
+    title: 'About Me'
+    subtitle: ''
+    text: |-
+      I am a **Data and Business Analytics professional** specialized in **Supply Chain Analytics, optimization, and data-driven decision making**.
 
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
+      My work focuses on transforming data into actionable insights using **data analytics, machine learning, optimization models, and business intelligence tools**.
 
-        Please reach out to collaborate 😃
-    design:
-      columns: '1'
+      I have developed projects covering:
+      - **Descriptive Analytics** – data exploration and insights
+      - **Predictive Analytics** – clustering and predictive modeling
+      - **Prescriptive Analytics** – optimization and operations research
+      - **Database Systems** – SQL data modeling and querying
+
+      My objective is to leverage **analytics and data science techniques to improve operational performance, support strategic decisions, and optimize complex systems in business and supply chain environments.**
+
+      This portfolio showcases practical analytics projects demonstrating how data can be used to solve real-world problems.
+  design:
+    columns: '1'
   - block: collection
     id: papers
     content:
