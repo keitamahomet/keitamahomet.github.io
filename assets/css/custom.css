@@ -1,5 +1,5 @@
-/* Hide HugoBlox attribution but keep copyright */
-footer a[href*="hugoblox"],
+/* Hide the HugoBlox attribution line but keep copyright */
+footer p:has(a[href*="hugoblox"]),
 footer span:has(a[href*="hugoblox"]) {
   display: none !important;
 }
