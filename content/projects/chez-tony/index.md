@@ -1,16 +1,18 @@
 ---
-title: Chez Tony – Customer Traffic Analysis
+title: Chez Tony Customer Traffic Analysis
 date: 2025-01-01
+
 links:
   - type: site
-    url: /uploads/Projet/descriptive_analytics/Chez_Tony_Customer_Traffic_Analysis/EQ1_TP1_Q2_chezTony_analyse_1.html
+    url: /uploads/Projet/descriptive_analytics/Chez%20Tony%20Traffic/EQ1_TP1_Q2_chezTony_analyse_1.html
+
 tags:
   - Descriptive Analytics
   - R
-  - EDA
   - Data Visualization
+  - Exploratory Data Analysis
 ---
 
-Descriptive analysis of customer traffic patterns to generate business insights and support operational decision-making.
+Exploratory data analysis of customer traffic patterns at Chez Tony restaurant using visualization and descriptive statistics.
 
 <!--more-->
