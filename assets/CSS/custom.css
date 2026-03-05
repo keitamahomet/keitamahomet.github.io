@@ -4,3 +4,16 @@
   font-weight: 600;
   padding: 10px 16px;
 }
+/* Hide HugoBlox attribution + "Create your site" button in footer */
+.powered-by,
+.poweredby,
+.hb-powered-by,
+.hugo-blox-powered-by,
+.footer .powered-by,
+footer .powered-by,
+footer a[href*="hugoblox.com"],
+footer a[href*="hugoblox"],
+footer a[href*="hugoblox.com/templates"],
+footer a[href*="hugoblox.com/premium"] {
+  display: none !important;
+}
