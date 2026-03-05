@@ -17,3 +17,7 @@ footer a[href*="hugoblox.com/templates"],
 footer a[href*="hugoblox.com/premium"] {
   display: none !important;
 }
+/* Last resort: hide any "Made with" line in footer */
+footer :is(p, div, span):has(a[href*="hugoblox"]) {
+  display: none !important;
+}
