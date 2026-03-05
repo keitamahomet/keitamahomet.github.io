@@ -1,21 +1,21 @@
 ---
-title: Camera Placement Optimization
+title: Investment Portfolio Optimization
 date: 2025-01-01
 
 links:
   - type: site
-    url: /uploads/Projet/prescriptive_analytics/Camera%20Optimization/EQ8_TP3_Q3_optimisation_combinatoire.html
+    url: /uploads/Projet/prescriptive_analytics/Investment%20Optimization/EQ8_TP3_Q1_programmation_mathematique.html
 
 tags:
   - Prescriptive Analytics
   - Optimization
-  - Integer Programming
+  - Linear Programming
   - Operations Research
   - R
 ---
 
-Combinatorial optimization model designed to determine the minimum number of surveillance cameras required to monitor all corridors in a building layout.
+Mathematical optimization model used to determine the optimal investment allocation under constraints such as budget limits and return objectives.
 
-The problem is formulated using mathematical optimization techniques and solved using optimization algorithms in R.
+The project demonstrates how optimization techniques can support strategic financial decision-making.
 
 <!--more-->
