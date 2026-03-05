@@ -1,15 +1,5 @@
-/* Force test: if you see a red outline, CSS is loaded */
-body { outline: 6px solid red !important; }
-
-/* Hide HugoBlox attribution + button */
+/* Hide HugoBlox attribution but keep copyright */
 footer a[href*="hugoblox"],
-footer a[href*="hugoblox.com"],
-footer a[href*="hugoblox.com/templates"],
-footer a[href*="hugoblox.com/premium"],
-footer .powered-by,
-footer .poweredby,
-footer .hb-powered-by,
-footer .hugo-blox-powered-by,
-footer .btn {
+footer span:has(a[href*="hugoblox"]) {
   display: none !important;
 }
