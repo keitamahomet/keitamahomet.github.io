@@ -1,70 +1,134 @@
 ---
-title: ⚡️ Turn Jupyter Notebooks into Blog Posts
-summary: Publish your data science and research directly from Jupyter Notebooks. No screenshots required.
-date: 2024-07-15
+title: 📊 Analyse du churn Netflix avec Jupyter Notebook
+summary: Présentation d’une analyse de churn Netflix réalisée dans un notebook Jupyter, intégrée directement dans un article de blog.
+date: 2026-03-17
 authors:
   - me
 tags:
-  - Hugo Blox
   - Jupyter
-  - Open Science
-  - Tutorials
+  - Data Science
+  - Churn Analysis
+  - Netflix
 cover:
-  # image: cover.jpg  # Auto-detected from cover image in this folder
   icon:
     name: "📔"
 image:
-  caption: "Image credit: [HugoBlox](https://hugoblox.com)"
+  caption: "Analyse réalisée à partir d’un notebook Jupyter intégré dans le site"
   focal_point: Center
   placement: 1
 content_meta:
   trending: true
 ---
 
-As a researcher or data scientist, your work often lives in Jupyter Notebooks. But sharing those insights effectively usually means taking screenshots, messy copy-pasting, or exporting to PDF.
+Dans ce projet, j’ai réalisé une analyse du churn sur un jeu de données Netflix directement dans un notebook Jupyter.  
+Au lieu de faire des captures d’écran ou de copier-coller le code et les graphiques, ce billet permet d’intégrer directement le notebook dans la page, tout en conservant une présentation claire et professionnelle.
 
-Hugo Blox changes that. With the `{{</* notebook */>}}` shortcode, you can render your actual `.ipynb` files directly as beautiful, interactive blog posts or project pages. Keep your code, outputs, and narrative in one place.
+Cette approche permet de partager dans un même espace :
+- le contexte analytique,
+- le code Python,
+- les visualisations,
+- et les résultats de modélisation.
 
 {{< toc mobile_only=true is_open=true >}}
 
-## Why publish notebooks?
+## Pourquoi publier ce notebook ?
 
 > [!TIP]
-> **Reproducible Research**: By publishing the actual notebook, you allow others to download and run your code, verifying your results and building upon your work.
+> **Analyse reproductible** : En publiant le notebook original, il devient plus simple de relire l’analyse, de reproduire les résultats et d’améliorer le travail par la suite.
 
-- **No more screenshots** – Render crisp code and vector plots directly from your source.
-- **Theme consistent** – Notebooks automatically adapt to your site's theme (including dark mode).
-- **Flexible sourcing** – Display notebooks from your `assets/` folder, page bundles, or even directly from a remote GitHub URL.
-- **Interactive** – Users can copy code blocks or download the full notebook to run locally.
+Cette analyse sur le churn Netflix permet notamment de montrer :
 
-## Example: Data Science Workflow
+- **L’exploration du jeu de données** – aperçu des premières lignes, types des colonnes, statistiques descriptives et dimensions du dataset.
+- **L’analyse descriptive** – étude des variables numériques et catégorielles liées au churn.
+- **La visualisation des comportements utilisateurs** – répartition par abonnement, appareil principal, genre favori, mode de paiement et autres variables importantes.
+- **La modélisation prédictive** – utilisation d’un modèle de régression logistique pour prédire le churn.
+- **L’évaluation du modèle** – génération d’un rapport de classification pour mesurer la performance.
 
-Below is a live example of a notebook rendered right here in this post. Notice how the markdown, code, and outputs (text, HTML, and JSON) are all preserved and styled.
+## Aperçu de l’analyse réalisée
+
+Le notebook contient plusieurs étapes clés :
+
+1. **Importation des bibliothèques Python**  
+   Utilisation de `pandas`, `numpy`, `matplotlib`, `seaborn` et des outils de `scikit-learn`.
+
+2. **Chargement du jeu de données Netflix**  
+   Lecture du fichier contenant les comportements utilisateurs.
+
+3. **Analyse descriptive du dataset**  
+   Vérification des types de variables, statistiques descriptives et taille de la base.
+
+4. **Préparation des variables**  
+   Conversion des colonnes catégorielles et numériques dans le bon format.
+
+5. **Visualisations exploratoires**  
+   Histogrammes des variables quantitatives et diagrammes des variables qualitatives selon le churn.
+
+6. **Modélisation du churn**  
+   Entraînement d’un modèle de régression logistique avec standardisation.
+
+7. **Évaluation**  
+   Analyse du `classification_report` pour interpréter les résultats.
+
+## Notebook intégré
+
+Ci-dessous, le notebook complet est intégré directement dans cette page :
 
 {{< notebook
-    src="hugoblox-onboarding.ipynb"
-    title="Launch Readiness Analysis"
+    src="Netflix_churn_analytics.ipynb"
+    title="Analyse du churn Netflix"
     show_metadata=true
     line_numbers=true
     dense=false
-    download_label="Download notebook"
+    download_label="Télécharger le notebook"
     show_outputs=true
 >}}
 
-## How to add a notebook
+## Ce que montre ce projet
 
-1. **Save your notebook.** Place your `.ipynb` file in `assets/notebooks/` (for global access) or inside a page bundle (like `content/blog/my-post/analysis.ipynb`).
-2. **Add the shortcode.** In any Markdown page, simply use:
-   `{{</* notebook src="analysis.ipynb" */>}}`
-3. **Customize.** You can hide code cells for non-technical audiences (`show_code=false`) or just show the output (`show_outputs=true`).
+Cette analyse met en évidence une démarche classique de data science appliquée à un problème métier concret : la prédiction du churn client.
+
+Elle permet de :
+- comprendre les variables qui décrivent le comportement des utilisateurs,
+- observer les différences entre clients churners et non churners,
+- construire un premier modèle prédictif,
+- et poser les bases d’une analyse plus avancée.
+
+## Comment ajouter le notebook dans le projet
+
+1. **Place le fichier notebook au bon endroit**  
+   Par exemple :
+   - dans `assets/notebooks/`
+   - ou dans le dossier du billet, comme `content/blog/netflix-churn/Netflix_churn_analytics.ipynb`
+
+2. **Ajoute le shortcode dans la page Markdown**  
+   Exemple :
+   `{{</* notebook src="Netflix_churn_analytics.ipynb" */>}}`
+
+3. **Personnalise l’affichage**  
+   Tu peux ajuster :
+   - `show_metadata`
+   - `line_numbers`
+   - `show_outputs`
+   - `dense`
+   - `download_label`
 
 > [!IMPORTANT]
-> Hugo Blox respects your privacy. Notebook rendering happens statically at build time—no third-party services required.
+> Pour que le notebook s’affiche correctement, le chemin donné dans `src` doit correspondre exactement à l’emplacement réel du fichier `.ipynb` dans ton projet.
 
-## Next steps
+## Prochaines améliorations possibles
 
-- **Try it out:** Drop one of your existing notebooks into this site and see how it looks.
-- **Link your papers:** Use the Embed shortcode to link your notebook to your latest arXiv preprint or GitHub repository.
-- **Get help:** Join the community on [Discord](https://discord.gg/z8wNYzb) or check the [documentation](https://docs.hugoblox.com).
+Ce notebook peut être enrichi avec :
+- un meilleur prétraitement des variables,
+- l’encodage explicite des variables catégorielles,
+- la comparaison de plusieurs modèles,
+- une matrice de confusion,
+- des métriques supplémentaires comme la précision, le rappel et le F1-score,
+- une interprétation plus poussée des facteurs influençant le churn.
 
-Happy researching! 🚀
+## Conclusion
+
+Ce projet permet de présenter une analyse complète du churn Netflix en gardant ensemble le code, les graphiques et l’interprétation dans un seul format de publication.
+
+C’est une bonne manière de transformer un notebook Jupyter en contenu lisible, structuré et réutilisable pour un portfolio en data science.
+
+Bonne publication 🚀
