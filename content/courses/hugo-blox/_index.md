@@ -1,5 +1,4 @@
 ---
-draft: true
 linkTitle: Hugo Blox
 title: Learn Hugo Blox in 10 minutes!
 date: 2025-09-24
