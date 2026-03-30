@@ -3,7 +3,8 @@ title: Weather Impact on Sales – Willmart
 date: 2025-01-01
 
 links:
-  - type: View Project
+  - icon: hero/link
+    name: View Analysis
     url: /uploads/Projet/predictive_analytics/weather_sales_analysis/EQ14_TP2_Q1_Willmart.html
 
 tags:
