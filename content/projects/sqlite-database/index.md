@@ -2,7 +2,7 @@
 title: SQLite Companies Database
 date: 2025-01-01
 links:
-  - type: site
+  - type: View Project
     url: /uploads/Projet/Database/SQLite%20Companies%20Database/EQ8_TP4_Q1_Persistance_donnees.html
 tags:
   - Database
