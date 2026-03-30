@@ -3,7 +3,8 @@ title: Weather and Employee Activity Analysis
 date: 2025-11-01
 
 links:
-  - type: View Project
+  - icon: hero/link
+    name: View Analysis
     url: /uploads/Projet/descriptive_analytics/Weather%20Employee%20Activity/EQ1_TP1_Q3_meteo_log_analyse_1.html
 
 tags:
