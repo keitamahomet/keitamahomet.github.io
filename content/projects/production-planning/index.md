@@ -3,7 +3,8 @@ title: Production Planning Optimization
 date: 2025-12-01
 
 links:
-  - type: View Project
+  - icon: hero/link
+    name: View Model
     url: /uploads/Projet/prescriptive_analytics/Production%20Planning/EQ8_TP3_Q2_prog_math_compacte.html
 
 tags:
