@@ -3,7 +3,7 @@ title: Quebec Trees Data Analysis
 date: 2025-12-01
 
 links:
-  - type: site
+  - type: View Project
     url: /uploads/Projet/descriptive_analytics/Quebec%20Trees%20Analysis/EQ1_TP1_Q1_arbres_qc_analyse_1.html
 
 tags:
