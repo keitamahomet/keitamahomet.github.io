@@ -3,7 +3,9 @@ title: Camera Placement Optimization
 date: 2025-01-01
 
 links:
-  - type: View Project
+  - icon: globe
+    icon_pack: fas
+    name: View Project
     url: /uploads/Projet/prescriptive_analytics/Camera%20Optimization/EQ8_TP3_Q3_optimisation_combinatoire.html
 
 tags:
