@@ -5,7 +5,8 @@ date: 2025-12-01
 summary: Optimization model to determine the best investment allocation under budget and return constraints.
 
 links:
-  - type: View Project
+  - icon: hero/link
+    name: View Model
     url: /uploads/Projet/prescriptive_analytics/Investment%20Optimization/EQ8_TP3_Q1_programmation_mathematique.html
 
 tags:
