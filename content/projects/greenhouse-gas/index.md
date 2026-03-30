@@ -3,8 +3,7 @@ title: Greenhouse Gas Emissions Prediction
 date: 2025-01-01
 
 links:
-  - icon: globe
-    icon_pack: fas
+  - icon: hero/link
     name: View Model
     url: /uploads/Projet/predictive_analytics/greenhouse_gas_prediction/EQ14_TP2_Q2_Gaz_effet_serre.html
 
